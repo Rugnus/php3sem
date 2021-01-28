@@ -1,3 +1,8 @@
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .insert_form {
     display: flex;
     flex-direction: column;
@@ -48,3 +53,11 @@
     transform: translateY(-4rem);
   }
   
+  .session__button {
+    max-width: 100% !important;
+    min-height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
