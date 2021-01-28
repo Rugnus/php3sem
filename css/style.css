@@ -1,0 +1,17 @@
+.insert_form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.admin-form {
+    padding: 10px;
+    display: flex;
+    justify-content: column;
+}
+
+.admin-form {
+    
+}
