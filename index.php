@@ -91,8 +91,8 @@
     <header>
         <img src="img/лого.jpg" alt="" id="logo">
         <ul class="header__menu">
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Информация</a></li>
+            <li><a href="index.php">Главная</a></li>
+            <li><a href="user.php">Форма</a></li>
             <li><a href="#">Контакты</a></li>
         </ul>
         
@@ -121,13 +121,24 @@
         </div>
         
 
-        <a href="user.php" style="color: black !important;">Форма</a>
+        <a href="user.php" style="color: black !important;" class="user__button">Перейти к форме</a>
 
     </main>
         
     <!-- <form method="post" action="/">
         <input type="submit" value="Сгенерировать ссылку">
     </form> -->
+
+    <style>
+        .user__button {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #54e346;
+            background-color: #65d6ce;
+            color: #fff;
+            border-radius: 50px;
+        }
+    </style>
     
 
 </body>

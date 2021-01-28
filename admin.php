@@ -6,6 +6,7 @@
 
 ?>
 
+
 <!-- <div >
     <form action="inter.php" method="post" class="admin-form" style="display: flex !important; flex-direction: column !important;">
         <label for="login" class="form__label">Логин: </label> <input name="login" id="login" type="text" class="form__input" require>
@@ -53,7 +54,7 @@
         echo '
                 <form action="inter.php" class="admin-form">
                 <label for="login">Логин: </label><input type="text" class="form__input" placeholder="Логин" id="login" value="'.$_COOKIE['cooklog'].'">
-                <label for="password" id="passlb">Пароль: </label><input type="password" class="form__input" placeholder="Пароль" id="password" value="'.$_COOKIE['cookpass'].'">
+                <label for="password" style="margin-top: 18px;" id="passlb">Пароль: </label><input type="password" class="form__input" placeholder="Пароль" id="password" value="'.$_COOKIE['cookpass'].'">
                 <input type="submit" value="Войти" class="big-button">
                 </form>
             ';
@@ -78,7 +79,7 @@
 .form__input {
     padding: 20px;
     border: 1px solid #a3ddcb;
-    border-radius: 15px;
+    border-radius: 20px !important;
 }
 
 .form__input:focus {
@@ -89,13 +90,16 @@
 
 .big-button {
     background-color: #f05454;
-    border: 1px solid #80ffdb;
+    border: none;
     margin-top: 10px;
     color: #333;
     padding: 15px;
     border-radius: 40px;
     transition: all .3s ease-in-out;
     cursor: pointer;
+    -webkit-box-shadow: 0px 7px 11px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow:    0px 7px 11px 0px rgba(50, 50, 50, 0.32);
+    box-shadow:         0px 7px 11px 0px rgba(50, 50, 50, 0.32);
 }
 
 .big-button:hover {

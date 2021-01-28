@@ -3,6 +3,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    text-decoration: none;
+
+}
+
 .insert_form {
     display: flex;
     flex-direction: column;
